@@ -3,6 +3,6 @@ Rails.application.routes.draw do
     resource :editor_settings, :only => ['show', 'update', 'edit']
   end
 
-  resources :content_images, :only => [:create]
-  resources :content_files, :only => [:create]
+  #resources :content_images, :only => [:create]
+  #resources :content_files, :only => [:create]
 end
